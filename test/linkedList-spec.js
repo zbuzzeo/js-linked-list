@@ -81,7 +81,7 @@ describe('Linked List Generator', function() {
     beforeEach(function () {
       urlList = linkedListGenerator();
     });
-    it('should retrieve the value of the first node in a list', function () {
+    it('should retrieve the value of the last node in a list', function () {
       expect(urlList.getTail).to.be.a('function');
       expect(urlList.getTail()).to.be.null;
     });
